@@ -14,7 +14,7 @@ function main (currentTime){
     
     if(gameOver){
       if(confirm('You lost. Press ok to restart the game')){
-        return window.location = '/Animation/Snake/lvl_1/snake.html'
+        return window.location = '/All-projects-main/Animation/Snake/lvl_1/snake.html'
       }
       return window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley');
     }

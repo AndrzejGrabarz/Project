@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(Images/green_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+h1{
+    text-align: center;
+    font-size:3rem;
+    color: rgb(211, 233, 17);
+    margin-top: 20px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin: 20px;
+    padding:5px;
+}
+
+span {
+   text-align: center;
+    
+}
+
+
+img {
+    height: 300px;
+    width: 200px;
+    padding:5px
+}
+
+.container {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    margin: 30px 40px;
+    position: relative;
+}
+
+
+
+button {
+    border: none;
+    outline: none;
+    padding:10px;
+    margin: 10px;
+    color: white;
+    border-radius:0.3em;
+    font-family: consolas,monospace; 
+    font-size: 2rem; 
+    width: 200px;  
+    font-weight: bold;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #3bbc9a, #32b78c, #2db27e, #2bad6f, #2ca85f, #39a956, #44a94d, #4fa943, #63af3f, #75b43a, #88b936, #9abe32);
+}
+
+button#hit1-btn {
+    background-image: linear-gradient(to right top, #4e1d03, #592806, #643308, #6f3f09, #784c09);}
+.card-container {
+    width: 100%;
+    height: 350px;
+    justify-content:center;
+}
+
+.dealer-btn {
+    display: flex;
+    width: 100%;
+    justify-content:flex-end;
+    margin-right: 240px;
+    
+}
+
+
+@media only screen and (min-width: 1600px) {
+    .dealer-btn {
+        width: 70%;
+    }
+  }
+
+.small-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+div.card-container{
+    display: flex;
+    
+}
+

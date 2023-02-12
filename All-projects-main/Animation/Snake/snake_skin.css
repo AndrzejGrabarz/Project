@@ -24,7 +24,7 @@
 
     #game-board-2 {
 
-        background-image: url(/Animation/Snake/lvl_2/trawa.jpg);
+        background-image: url(/All-projects-main/Animation/Snake/lvl_2/trawa.jpg);
         background-size:cover; ;
 
         width:90vmin;
@@ -43,7 +43,7 @@
         height:20px;
         justify-self:center; 
         align-self: center; */
-        background-image: url("/Animation/Snake/lvl_1/skin.jpg");
+        background-image: url("/All-projects-main/Animation/Snake/lvl_1/skin.jpg");
         background-size: cover;
         border: 2px solid black;
        
@@ -71,7 +71,7 @@
 
 
     .stary-na-wersalce{
-        background-image: url("/Animation/Snake/lvl_1/Wonsz.png");
+        background-image: url("/All-projects-main/Animation/Snake/lvl_1/Wonsz.png");
         background-size: cover;
         border: 2px solid black;
        
